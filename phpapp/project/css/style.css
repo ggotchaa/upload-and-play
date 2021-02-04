@@ -1,0 +1,71 @@
+h1{
+	text-align: center;
+	margin:5px;
+}
+
+.container {
+	position: absolute;
+	width: 500px;
+	height: 470px;
+	border: 1px solid #eee;
+	box-shadow: 0 0 5px 0 #333;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 4%;
+}
+
+.video-container {
+	width: 490px;
+	height: 350px;
+	margin: 5px auto;
+	border: 1px solid #333;
+}
+
+.choose{
+	background-color: #008CBA;
+	border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 8px;	
+    cursor: pointer;
+    padding: 10px 25px;
+}
+
+.button{
+	background-color: #4CAF50;
+	border: none;
+	color:white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+#progress{
+	width: 98%;
+	height: 20px;
+	border-radius: 3px;
+	border: 1px solid #eee;
+	box-shadow: 0 0 3px 0 #333;
+	margin: 10px auto;
+	text-align: center;
+}
+
+#progress span {
+	position: relative; 	
+}
+
+.containerForAudio{
+	display: block;
+	width: 500px;
+	margin:0 auto;
+	margin-top: 5%;
+}
+
